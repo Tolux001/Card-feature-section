@@ -37,7 +37,7 @@ You can use a tool like [FireShot](https://getfireshot.com/) to take the screens
 
 ### Links
 
-- Solution URL: [Frontend Mentor]([https://your-solution-url.com](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK/hub?share=true))
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-page-built-using-flexbox-andand-bem-naming-implementation-FWusAeKt2o)
 - Live Site URL: [Live Site URl](https://tolux-card-feature-section.netlify.app)
 
 ## My process
