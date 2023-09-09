@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <h1 data-testid="slackUserName">Your Slack Name</h1>
+        <img src="your-profile-image.jpg" alt="Your Slack Username" data-testid="slackDisplayImage">
+        <p data-testid="currentDayOfTheWeek">Monday</p>
+        <p data-testid="currentUTCTime">1234567890000</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 50px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 50px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+
+
+function updateDateTime() {
+    const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const currentDate = new Date();
+    
+    const dayOfWeek = daysOfWeek[currentDate.getUTCDay()];
+    const utcTime = currentDate.getTime();
+    
+    document.querySelector('[data-testid="currentDayOfTheWeek"]').textContent = dayOfWeek;
+    document.querySelector('[data-testid="currentUTCTime"]').textContent = utcTime;
+}
+
+// Update the date and time every second
+setInterval(updateDateTime, 1000);
+
+// Initial update
+updateDateTime();
+
+</html>
