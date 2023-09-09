@@ -17,7 +17,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Overview
   <b> Scored 100% In Google Page Insight </b>
-  ![Google Page Insight](design/google-page-insight.jpg)
+  [pagespeed.web.dev](https://pagespeed.web.dev/analysis/https-tolux-card-feature-section-netlify-app/jd8i7dm874?form_factor=mobile)
 
 
 ### The challenge
@@ -37,8 +37,8 @@ You can use a tool like [FireShot](https://getfireshot.com/) to take the screens
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Live Site URl](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor]([https://your-solution-url.com](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK/hub?share=true))
+- Live Site URL: [Live Site URl](https://tolux-card-feature-section.netlify.app)
 
 ## My process
 
